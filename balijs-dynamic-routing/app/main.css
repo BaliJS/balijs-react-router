@@ -1,0 +1,50 @@
+html {
+	font-family: Open Sans;
+}
+
+body {
+	text-align: center;
+}
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #B71C1C;
+}
+
+.nav {
+	display: block;
+}
+
+.nav,
+.content {
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.nav,
+.content ul {
+	list-style: none;
+	padding: 0;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav li a {
+	display: block;
+	padding: 10px;
+	margin: 5px;
+	background-color: #C62828;
+	color: #FFF;
+	border-radius: 2px;
+}
+
+.content li {
+	border-bottom: 1px solid #DDD;
+}

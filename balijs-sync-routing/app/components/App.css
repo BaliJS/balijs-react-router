@@ -1,0 +1,17 @@
+.slideIn-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.slideIn-enter.slideIn-enter-active {
+  opacity: 1;
+}
+
+.slideIn-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.slideIn-leave.slideIn-leave-active {
+  opacity: 0;
+}
